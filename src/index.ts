@@ -60,7 +60,7 @@ const cordyceps = [
 ];
 
 const home = {
-  pageHeader: "Welcome to Shroomland",
+  pageHeader: "Welcome to Cordycepland",
   pageDescription: "Prepare to be shroomed",
 };
 
