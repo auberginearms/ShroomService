@@ -53,7 +53,7 @@ const cordyceps = [
     },
 ];
 const home = {
-    pageHeader: "Welcome to Shroomland",
+    pageHeader: "Welcome to Cordycepland",
     pageDescription: "Prepare to be shroomed",
 };
 // Resolvers define how to fetch the types defined in your schema.
