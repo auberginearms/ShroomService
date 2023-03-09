@@ -63,6 +63,23 @@ const home = {
   pageHeader: "Welcome to Cordycepland",
   pageDescription: "Prepare to be shroomed",
 };
+const contact = {
+  pageHeader: "Contact Us",
+  pageDescription: "Using magical shrooms",
+};
+const about = {
+  pageHeader: "About Us",
+  pageDescription: "We are now mushrooms too",
+};
+const terms = {
+  pageHeader: "Terms and Conditions",
+  pageDescription:
+    "You may observe mushrooms with us on the condition that you are a mushroom",
+};
+const catalog = {
+  pageHeader: "Shroomalog",
+  pageDescription: "",
+};
 
 // Resolvers define how to fetch the types defined in your schema.
 // This resolver retrieves books from the "books" array above.
@@ -70,6 +87,18 @@ const resolvers = {
   Query: {
     home: () => {
       return home;
+    },
+    contact: () => {
+      return contact;
+    },
+    about: () => {
+      return about;
+    },
+    terms: () => {
+      return terms;
+    },
+    catalog: () => {
+      return catalog;
     },
     cordyceps: () => {
       return cordyceps;
