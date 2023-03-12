@@ -14,7 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.4.0",
-    "graphql": "^16.6.0"
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "pantry-cloud": "^0.1.8"
   },
   "devDependencies": {
     "@types/node": "^18.14.2",
